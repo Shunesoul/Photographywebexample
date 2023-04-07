@@ -39,6 +39,8 @@
     padding-top: 120px;
     display: flex;
     flex-direction: column;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 .topSection {
     display: flex;
@@ -62,3 +64,256 @@
     margin: 20px;
     color: black;    
 }
+.sectionPieces {
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;}
+.leftSection{
+    display: flex;
+    flex-direction: column;
+    /* border: solid red ; */
+}
+.leftSection h3 {
+    margin: 1rem;
+}
+.leftSection p {
+    margin: 1rem;
+}
+.leftSection form {
+    text-align: center;   
+}
+.rightSection{
+    display: flex;
+    flex-direction: column;
+}
+.rightSection h3 {
+    margin: 1rem;
+}
+.rightSection p {
+    margin: 1rem;
+}
+.sectionPieces img {
+    border-radius: 1rem;
+}
+.imagecontainer {
+    /* border: 2rem; */
+    /* border: solid green; */
+    display: flex;
+    overflow-x: scroll;
+    padding: 24px;
+    width: 25rem;
+    height: 35rem;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 20px;
+    border-radius: 50px;
+    gap: 30px;
+    margin: 2rem auto;
+    margin-bottom: 10rem auto;
+    align-items: center;}
+.imagecontainer .item {
+    flex: 0 0 100px;
+    padding: 24px;
+    border-radius: 8px;
+    scroll-snap-align: start;
+}
+.imagecontainer img {
+    height: 55%;
+    width: 55%;
+}
+.bottomMiddlesection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.588);
+    padding: 1rem;
+    border-radius: 3rem;
+
+}
+.bottomMiddlesection h1 {
+    align-self: center;
+    margin: 3rem;
+    
+}
+.grid {
+    display: grid;
+    grid-template-areas: 
+    "one two three four"
+    "five six seven four"
+    "five eight eight four"
+    "nine ten eleven four"
+    "twelve thirteen fourteen fifteen";
+    grid-gap: 6px;
+    text-align: center;
+}
+.object1  {
+    grid-area: one;
+    border: solid 3px black;
+    border-radius: 1rem;
+    background-color: rgba(128, 128, 128, 0.8);
+}
+.object2  {
+    grid-area: two;
+    border: solid 3px black;
+    border-radius: 1rem;
+    background-color: rgba(128, 128, 128, 0.8);
+}
+.object3  {
+    grid-area: three;
+    border: solid 3px black;
+    border-radius: 1rem;
+    background-color: rgba(128, 128, 128, 0.8);
+}
+.object4  {
+    grid-area: four;
+    border: solid 3px black;
+    border-radius: 1rem;
+    background-color: rgba(128, 128, 128, 0.8);
+}
+.object5  {
+    grid-area: five;
+    border: solid 3px black;
+    border-radius: 1rem;
+    background-color: rgba(128, 128, 128, 0.8);
+}
+.object6  {
+    grid-area: six;
+    border: solid 3px black;
+    border-radius: 1rem;
+    background-color: rgba(128, 128, 128, 0.8);
+}
+.object7  {
+    grid-area: seven;
+    border: solid 3px black;
+    border-radius: 1rem;
+    background-color: rgba(128, 128, 128, 0.8);
+}
+.object8  {
+    grid-area: eight;
+    border: solid 3px black;
+    border-radius: 1rem;
+    background-color: rgba(128, 128, 128, 0.8);
+}
+.object9  {
+    grid-area: nine;
+    border: solid 3px black;
+    border-radius: 1rem;
+    background-color: rgba(128, 128, 128, 0.8);
+}
+.object10 {
+    grid-area: ten;
+    border: solid 3px black;
+    border-radius: 1rem;
+    background-color: rgba(128, 128, 128, 0.8);
+}
+.object11 {
+    grid-area: eleven;
+    border: solid 3px black;
+    border-radius: 1rem;
+    background-color: rgba(128, 128, 128, 0.8);
+}
+.object12 {
+    grid-area: twelve;
+    border: solid 3px black;
+    border-radius: 1rem;
+    background-color: rgba(128, 128, 128, 0.8);
+}
+.object13 {
+    grid-area: thirteen;
+    border: solid 3px black;
+    border-radius: 1rem;
+    background-color: rgba(128, 128, 128, 0.8);
+}
+.object14 {
+    grid-area: fourteen;
+    border: solid 3px black;
+    border-radius: 1rem;
+    background-color: rgba(128, 128, 128, 0.8);
+}
+.object15 {
+    grid-area: fifteen;
+    border: solid 3px black;
+    border-radius: 1rem;
+    background-color: rgba(128, 128, 128, 0.8);
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+    background-color: rgba(128, 128, 128, 0.387);
+    padding: 1rem;
+}
+.profileSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.profileLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.socialMedialinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+.socialMedialinks img {
+    height: auto;
+    max-width: 5rem;
+}
+.profileRight {
+    display: block;
+}
+.profileRight img {
+    height: auto;
+    width: 30rem;
+    border-radius: 100%;
+    border: solid 10px black;
+}
+.footerGrid {
+    display: grid;
+    grid-template-areas:
+    "one two three four"
+    "five six seven eight"
+    "nine ten eleven twelve"
+    "thirteen fourteen fifteen sixteen"
+    "seventeen eighteen nineteen twenty";
+    grid-gap: 4px;
+    margin: 2rem;
+    margin-bottom: 0rem;
+}
+.item1 {
+    grid-area: one;
+}
+.item2 {
+    grid-area: five;
+}
+.item3 {
+    grid-area: two;
+}
+.item4 {
+    grid-area: six;
+}
+.item5 {
+    grid-area: three;
+}
+.item6 {
+    grid-area: ten;
+}
+.item7 {
+    grid-area: fourteen;
+}
+.item8 {
+    grid-area: seven;
+}
+.item9 {
+    grid-area: eleven;
+}
+.item10 {
+    grid-area: twenty;
+}
+

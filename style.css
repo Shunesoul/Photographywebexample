@@ -83,6 +83,10 @@
 .leftSection form {
     text-align: center;   
 }
+.leftSection img {
+    height: auto;
+    width: 100%;
+}
 .rightSection{
     display: flex;
     flex-direction: column;
@@ -92,6 +96,10 @@
 }
 .rightSection p {
     margin: 1rem;
+}
+.rightSection img {
+    height: auto;
+    width: 100%;
 }
 .sectionPieces img {
     border-radius: 1rem;
@@ -315,5 +323,21 @@
 }
 .item10 {
     grid-area: twenty;
+}
+.middleSections h1 {
+    text-align: center;
+    margin: 5rem;
+}
+.contactColumns {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+    justify-content: center;
+    gap: 2rem;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    
 }
 

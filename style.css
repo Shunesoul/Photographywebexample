@@ -384,3 +384,9 @@
     height: auto;
     width: 20px;
 }
+.merchText {
+    margin: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
